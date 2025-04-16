@@ -9,7 +9,7 @@ import logging
 logging.getLogger("tensorflow").setLevel(logging.ERROR)
 
 # --- Quantum Circuit Setup ---
-# Use 4 qubits and 3 variational layers (as in your original code for binary classification).
+# Use 4 qubits and 3 variational layers
 n_qubits = 4
 n_layers = 3
 
